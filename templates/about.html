@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{{ url_for("static", filename="styles/about.css") }}">
+{% endblock %}
+{% block content %}
+<h1>About Me</h1>
+<p>I am currently studying computer engineering in Middle East Technical University. 
+    I have graduated from Niğde High School of Science in 2021, being 721st in Turkey, in the exam YKS.</p>
+<h1>Computer Skills</h1>
+<p>
+    <ul>
+        <li>Python, Pandas, Numpy, Flask, Tkinter</li>
+        <li>C/C++</li>
+        <li>Data Structures</li>
+        <li>HTML, CSS, Sass, Bootstrap</li>
+        <li>Git, Github</li>
+        <li>Linux</li>
+    </ul>
+</p>
+<h1>Languages</h1>
+<p>
+    <ul>
+        <li>English</li>
+        <li>Turkish (Native)</li>
+    </ul>
+</p>
+<h1>Certificates</h1>
+<p>
+    <ul>
+        <li><a href="https://www.hackerrank.com/certificates/4c19856c0aa4" target="_blank">Python (Basic) Certificate</a></li>
+        <li><a href="https://verified.sertifier.com/en/verify/14164024774253?ref=email" target="_blank">Data'Speak 2022</a></li>
+    </ul>
+</p>
+<h1>Hobbies</h1>
+<p>
+    Programming,
+    Bodybuilding,
+    Reading books
+</p>
+{% endblock %}

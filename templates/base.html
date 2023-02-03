@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for("static", filename="styles/base.css") }}">
+        {% block link %}{% endblock %}
+        <title>
+            {% block title %}{% endblock %}
+        </title>
+    </head>
+    <body>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col-md-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <img src="{{ url_for("static", filename="images/img.jpeg") }}" id="img">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/home" id="name">BATUHAN AKÇAN</a>
+                        </li>
+                        <li class="nav-item" id="login">
+                            <a class="nav-link" href="/login">Logın</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/projects">Projects</a>
+                        </li>
+                        <li class="nav-item" id="social">
+                            <a href="https://instagram.com/b__akcan" target="_blank" class="fa fa-instagram"></a>
+                            <a href="https://twitter.com/b__akcan" target="_blank" class="fa fa-twitter"></a>
+                            <a href="https://www.linkedin.com/in/batuhan-akcan/" target="_blank" class="fa fa-linkedin"></a>
+                            <a href="https://github.com/B-Akcan" target="_blank" class="fa fa-github"></a>
+                            <a href="mailto:batuhanakcan38@gmail.com" target="_blank" class="fa fa-envelope"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>

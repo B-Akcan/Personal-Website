@@ -1,0 +1,88 @@
+body
+{
+    height: 100%;
+    background-image: url("../images/bg.jpeg");
+    font-family: 'Open Sans', sans-serif;
+    
+    .col-md-3
+    {
+        height: 721px;
+        background-color: black;
+        font-variant: small-caps;
+        ul[class = "nav flex-column"]
+        {
+            a
+            {
+                color: white;
+            }
+            a:hover
+            {
+                opacity: 0.7;
+            }
+            #login
+            {
+                padding-top: 30px;
+            }
+            #social
+            {
+                padding-top: 40px;
+            }
+            #name
+            {
+                font-size: xxx-large;
+            }
+            #img
+            {
+                max-width: 100%;
+                height: auto;
+            }
+            .fa {
+                padding: 10px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+                margin: 3px;
+            }
+            .fa:hover {
+              opacity: 0.7;
+            }
+            .fa-instagram {
+                background: #f09433; 
+                background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+                background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+                color: white;
+            }
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+            .fa-linkedin
+            {
+                background: #007bb5;
+                color: white;
+            }
+            .fa-github
+            {
+                background: gray;
+                color: white;
+            }
+            .fa-envelope
+            {
+                background: white;
+                color: black;
+            }
+        }
+    }
+    .col-md-8
+    {
+        text-align: left;
+        height: 721px;
+        background-color: white;
+        margin-left: 97px;
+    }
+
+}

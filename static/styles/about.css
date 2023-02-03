@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=about.css.map */

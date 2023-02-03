@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Personal Website - Batuhan Akçan{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{{ url_for("static", filename="styles/home.css") }}">
+{% endblock %}
+{% block content %}
+    {% if not usr %}
+        <h1>Welcome to my webpage!</h1>
+    {% else %}
+        <h1>Welcome to my webpage, {{usr}}!</h1>
+    {% endif %}
+    <form action="{{ url_for("logout") }}">
+        <p><input type="submit" value="Logout" class="btn"></p>
+    </form>
+{% endblock %}

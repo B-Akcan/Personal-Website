@@ -1,0 +1,73 @@
+body {
+  height: 100%;
+  background-image: url("../images/bg.jpeg");
+  font-family: "Open Sans", sans-serif;
+}
+body .col-md-3 {
+  height: 721px;
+  background-color: black;
+  font-variant: small-caps;
+}
+body .col-md-3 ul[class="nav flex-column"] a {
+  color: white;
+}
+body .col-md-3 ul[class="nav flex-column"] a:hover {
+  opacity: 0.7;
+}
+body .col-md-3 ul[class="nav flex-column"] #login {
+  padding-top: 30px;
+}
+body .col-md-3 ul[class="nav flex-column"] #social {
+  padding-top: 40px;
+}
+body .col-md-3 ul[class="nav flex-column"] #name {
+  font-size: xxx-large;
+}
+body .col-md-3 ul[class="nav flex-column"] #img {
+  max-width: 100%;
+  height: auto;
+}
+body .col-md-3 ul[class="nav flex-column"] .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 3px;
+}
+body .col-md-3 ul[class="nav flex-column"] .fa:hover {
+  opacity: 0.7;
+}
+body .col-md-3 ul[class="nav flex-column"] .fa-instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
+  color: white;
+}
+body .col-md-3 ul[class="nav flex-column"] .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+body .col-md-3 ul[class="nav flex-column"] .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+body .col-md-3 ul[class="nav flex-column"] .fa-github {
+  background: gray;
+  color: white;
+}
+body .col-md-3 ul[class="nav flex-column"] .fa-envelope {
+  background: white;
+  color: black;
+}
+body .col-md-8 {
+  text-align: left;
+  height: 721px;
+  background-color: white;
+  margin-left: 97px;
+}
+
+/*# sourceMappingURL=base.css.map */
