@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request, session, redirect, url_for
+from datetime import timedelta
 
 app = Flask(__name__)
 app.secret_key = "batuhan"
+app.permanent_session_lifetime = timedelta(minutes=30)
 
 @app.route("/home")
 @app.route("/")
