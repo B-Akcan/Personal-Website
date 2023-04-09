@@ -9,4 +9,8 @@ After you download, type "python main.py" in the terminal. Then, copy the IP add
 ![2](https://user-images.githubusercontent.com/108730135/223700088-9e27ee48-08d6-4c00-823d-a2701088dfd3.png)
 
 ## About Page
-![3](https://user-images.githubusercontent.com/108730135/223700109-4e465497-5a95-42de-89d5-a79e5d6ae303.png)
+![about](https://user-images.githubusercontent.com/108730135/230765415-d1f51e16-c6c8-4417-bf0c-10e58dc1b5d0.png)
+
+## Projects Page
+![projects](https://user-images.githubusercontent.com/108730135/230765429-c7cc548e-5dc0-4ada-983d-f342418716d7.png)
+
