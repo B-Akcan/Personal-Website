@@ -8,8 +8,8 @@
         <h1>Welcome to my webpage!</h1>
     {% else %}
         <h1>Welcome to my webpage, {{usr}}!</h1>
+        <form action="{{ url_for("logout") }}">
+            <p><input type="submit" value="Logout" class="btn"></p>
+        </form>
     {% endif %}
-    <form action="{{ url_for("logout") }}">
-        <p><input type="submit" value="Logout" class="btn"></p>
-    </form>
 {% endblock %}
