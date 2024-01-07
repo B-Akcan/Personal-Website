@@ -1,7 +1,9 @@
 # Personal-Website
 Made with Flask.\
 After you download, type "python main.py" in the terminal. Then, copy the IP address and paste it to the search bar in your browser.
-
+# Dependancies
+Flask==3.0.0
+# Screenshots
 ## Main Page
 ![1](https://user-images.githubusercontent.com/108730135/223700063-aac5af42-8fce-415b-a7b9-dad3d8036df2.png)
 
